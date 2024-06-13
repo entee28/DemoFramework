@@ -1,0 +1,111 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ExampleFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Character",
+        "printedName": "Character",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ExampleFramework9CharacterC4nameSSvp",
+            "mangledName": "$s16ExampleFramework9CharacterC4nameSSvp",
+            "moduleName": "ExampleFramework",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ExampleFramework9CharacterC4nameSSvg",
+                "mangledName": "$s16ExampleFramework9CharacterC4nameSSvg",
+                "moduleName": "ExampleFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Character",
+                "printedName": "ExampleFramework.Character",
+                "usr": "s:16ExampleFramework9CharacterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16ExampleFramework9CharacterC4nameACSS_tcfc",
+            "mangledName": "$s16ExampleFramework9CharacterC4nameACSS_tcfc",
+            "moduleName": "ExampleFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16ExampleFramework9CharacterC",
+        "mangledName": "$s16ExampleFramework9CharacterC",
+        "moduleName": "ExampleFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
